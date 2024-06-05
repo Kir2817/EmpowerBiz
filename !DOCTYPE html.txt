@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpowerBiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4A4A4A; /* Fondo gris */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .courses, .consulting, .blog, .contact {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EmpowerBiz</h1>
+        <p>Impulsando tu éxito empresarial</p>
+    </header>
+    <nav>
+        <a href="#courses">Cursos</a>
+        <a href="#consulting">Consultoría</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="courses" class="courses">
+            <h2>Cursos</h2>
+            <p>Ofrecemos una variedad de cursos en línea para mejorar tus habilidades empresariales.</p>
+            <!-- Aquí puedes añadir más contenido sobre los cursos -->
+        </section>
+        <section id="consulting" class="consulting">
+            <h2>Consultoría</h2>
+            <p>Nuestros expertos en consultoría están aquí para ayudarte a llevar tu negocio al siguiente nivel.</p>
+            <!-- Aquí puedes añadir más contenido sobre los servicios de consultoría -->
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <p>Lee nuestros artículos sobre las últimas tendencias y consejos en negocios y emprendimiento.</p>
+            <!-- Aquí puedes añadir más contenido del blog -->
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros para más información.</p>
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 EmpowerBiz. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
